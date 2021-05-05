@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Rubik', Arial, sans-serif;
+}
+
+.conteiner {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.widgets {
+    display: flex;
+    padding-top: 22px;
+    padding-bottom: 18px;
+    background: #F6F6F9;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget-img {
+    margin: 44px 25px 44px 35px;
+}
+
+.widget-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 42px 70px 25px;
+}
+
+.hr-widget {
+    width: 1px;
+    height: 74px;
+    left: 525px;
+    top: 384px;
+    background: #EB5569;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 56px;
+}
+
+.covid-widget__face-mask {
+    margin: 47px 17px 46px -26px;
+}
+
+.featur-bar {
+    width: 160px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #DB0000;
+    margin: 40px 17px;
+}
+
+span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
