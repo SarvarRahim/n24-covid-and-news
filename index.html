@@ -11,60 +11,71 @@
 </head>
 <body>
 
-    <section class="widget conteiner">
-    <div class="widgets">
-        <img class="widget-img" src="img/icon-covid.svg" alt="Covid-19 in Uzbekistan"  width="43" height="45">
-        <h2 class="widget-title">Коронавирус COVID-19
-            в Узбекистане</h2>
-        <hr class="hr-widget">
+        <article class="covid-news container">
+          <div class="covid-news__wrapper">
+            <div class="covid-news__title">
+              <img class="covid-news__title-img" src="img/icon-covid.svg" alt="virus">
+              <h2 class="covid-news__hero">Коронавирус COVID-19
+                в Узбекистане</h2>
+            </div>
 
-        <dl class="info">
-            <img class="covid-widget__face-mask" src="img/face-with-mask.png" alt="infected 2753"width="38" height="39">
-            <dt class="featur-bar"> Инфицированы <span>2753</span></dt>
-                <hr class="hr-widget">
-            <img class="covid-widget__face-mask" src="img/smile.png" alt="recovered 2245"width="38" height="39">
-            <dt class="featur-bar">Выздоровели <span>2245</span></dt>
-                <hr class="hr-widget">
-            <img class="covid-widget__face-mask" src="img/vector.png" alt="died 12"width="38" height="39">
-            <dt class="featur-bar">Умерли <span>12</span></dt>
-        </dl>
-    </div>
-</section>
+            <div class="covid-info">
+              <img class="covid-info__smile" src="img/face-with-mask.png" width="38" height="40" alt="smile">
+              <h3 class="covid-info__text">Инфицированы
+                 <span>2753</span>
+              </h3>
+            </div>
 
-    <main class="posts">
-        <a href="#">
-            <div>
-                <img src="img/prezident.jpg" alt="president" width="380" height="190" srcset="img/prezident.jpg 1x, img-retina/president@2x.jpg 2x">
+            <div class="covid-info">
+              <img class="covid-info__smile" src="img/smile.png" width="38" height="40" alt="smile">
+              <h3 class="covid-info__text green">Выздоровели
+                <span>2245</span></h3>
+            </div>
+
+            <div class="covid-info bdr-none">
+              <img class="covid-info__smile" src="img/vector.png" width="38" height="40" alt="smile">
+              <h3 class="covid-info__text black">Умерли
+                <span>12</span></h3>
+            </div>
+          </div>
+        </article>
+
+    <section class="posts container">
+        <a class="news-link" href="#">
+            <div class="news-post">
+            <div class="content-news">
+                <img class="news-img" src="img/prezident.jpg" alt="president" width="380" height="190" srcset="img/prezident.jpg 1x, img-retina/president@2x.jpg 2x">
                 <p>Мирзиёев рассказал, зачем было построено Сардобинское водохранилище</p>
                 <time datetime="2020-05-16 05:28">05:28 / 16.05.2020</time>
             </div>
             <div>
-                <img src="img/karantin.jpg"  alt="quarantine" width="380" height="190" srcset="img/karantin.jpg 1x, img-retina/karantin@2x.jpg 2x">
+                <img class="news-img" src="img/karantin.jpg"  alt="quarantine" width="380" height="190" srcset="img/karantin.jpg 1x, img-retina/karantin@2x.jpg 2x">
                 <p>Карантин в Узбекистане продлен до 1 июня </p>
                 <time datetime="2020-05-16 05:28">05:28 / 16.05.2020</time>
             </div>
             <div>
-                <img src="img/sardoba.jpg" alt="sardoba" width="380" height="190">
+                <img class="news-img" src="img/sardoba.jpg" alt="sardoba" width="380" height="190">
                 <p>Обмелевшая Сардоба: стихия или человеческий фактор?</p>
                 <time datetime="2020-05-16 05:28">05:28 / 16.05.2020</time>
             </div>
             <div>
-                <img src="img/prokuror.jpg"  alt="prosecutor" width="380" height="190" srcset="img/prokuror.jpg x1, img-retina/prokuror@2x.jpg x2">
+                <img class="news-img" src="img/prokuror.jpg"  alt="prosecutor" width="380" height="190" srcset="img/prokuror.jpg x1, img-retina/prokuror@2x.jpg x2">
                 <p>Следствие проверяет четыре версии прорыва Сардобинской плотины</p>
                 <time datetime="2020-05-16 05:28">05:28 / 16.05.2020</time>
             </div>
             <div>
-                <img src="img/ambulance.jpg"  alt="medical car ambulance" width="380" height="190" srcset="img/ambulance.jpg x1, img-retina/ambulance@2x.jpg x2">
+                <img class="news-img" src="img/ambulance.jpg"  alt="medical car ambulance" width="380" height="190" srcset="img/ambulance.jpg x1, img-retina/ambulance@2x.jpg x2">
                 <p>Выявлено еще 7 случаев коронавируса</p>
                 <time datetime="2020-05-16 05:28">05:28 / 16.05.2020</time>
             </div>
             <div>
-                <img src="img/post-stop-karantin.jpg"  alt="stop quarantine" width="380" height="190" srcset="img/post-stop-karantin.jpg x1, img-retina/stop-karantin@2x.jpg x2">
+                <img class="news-img" src="img/post-stop-karantin.jpg"  alt="stop quarantine" width="380" height="190" srcset="img/post-stop-karantin.jpg x1, img-retina/stop-karantin@2x.jpg x2">
                 <p>Итоги второго месяца карантина</p>
                 <time datetime="2020-05-16 05:28">05:28 / 16.05.2020</time>
             </div>
+        </div>
         </a>
-    </main>
+</section>
 
 
 </body>
